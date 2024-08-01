@@ -1,0 +1,137 @@
+*{
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: titulos;
+    src: url(../fuentes/static/SourceSans3-SemiBold.ttf);
+}
+@font-face {
+    font-family: texto;
+    src: url(../fuentes/lato/Lato-Regular.ttf);
+}
+/*inicio header*/
+header{
+    width: 1366px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+header .logo{
+    position: absolute;
+    right: 40px;
+}
+nav{
+    width: 1366px;
+    height: 95px;
+    z-index: 10;
+    text-align: center;
+    padding: 7px;
+    background-color: #193c4a;
+    font-family: titulos, serif;
+}
+header .barra ul{
+    list-style: none;
+}
+header .barra ul li{ 
+    margin-top: 24px;
+    position: relative;
+    float: left;
+}
+header .barra ul li a{
+    margin-top: 5px;
+    background-color: #8dbdb3;
+    border-radius: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+}
+header .barra ul li :hover{ 
+    padding: -12px;
+}
+
+header .barra ul li ul{
+    position: absolute;
+    left: 0;
+    width: 180px;
+    display: none;
+    border-radius: 15px;
+}
+header .barra ul li ul li{    
+    width: 200px;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+header .barra ul li:focus-within > ul ,
+header .barra ul li:hover > ul {
+    display: initial;
+}
+/*fin header*/
+
+
+/*inicio section*/
+section{
+    width: 1366px;
+    height: 1000px;
+    margin-top: 9px;
+}
+.gato{
+    position: relative;
+    left: 390px;
+}
+.info {
+    left: 120px;
+    margin-top: 160px;
+    margin-left: 57px;
+    width: 1193px;
+    font-size: 50px;
+    text-align: justify;
+    font-family: texto, serif;
+    position: relative;
+    top: -110px;
+}
+/*fin section*/
+/*Inicio footer*/
+footer{
+    width: 1366px;
+    height: 500px;
+    z-index: 10;
+    padding: 7px;
+    background-color: #193c4a;
+    font-family: titulos, serif;
+}
+ul li{
+    margin-top: 38px;
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+
+
+.img_footer{
+    text-align: right;
+    margin-top: -300px;
+}
+footer .abajo ul li  :hover{
+    width: 10px;
+    text-align: left;
+    list-style-type: none;
+    background-color: #1a1a1a;
+    box-shadow: 6px 6px 6px #98b7f1;}
+/*Fin footer
+*/
